@@ -1,0 +1,8 @@
+require("mini.plugins-setup")
+require("mini.core.keymaps")
+require("mini.core.colorscheme")
+require("mini.core.options")
+require("mini.plugins.lualine")
+require("mini.plugins.treesitter")
+require("mini.plugins.telescope")
+require("mini.plugins.alpha")

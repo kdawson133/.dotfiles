@@ -1,0 +1,86 @@
+format = """
+$username\
+$hostname\
+$directory\
+$git_branch\
+$git_state\
+$git_status\
+$cmd_duration\
+$line_break\
+$python\
+$character"""
+
+palette = 'nord'
+
+[palettes.nord]
+# Polar Night
+nord0 = '#2E3440'
+nord1 = '#3B4252'
+nord2 = '#434C5E'
+nord3 = '#4C566A'
+# Snow Storm
+nord4 = '#D8DEE9'
+nord5 = '#E5E9F0'
+nord6 = '#ECEFF4'
+# Frost
+nord7 = '#8FBCBB'
+nord8 = '#88C0D0'
+nord9 = '#81A1C1'
+nord10 = '#5E81AC'
+# Aurora
+nord11 = '#BF616A'
+nord12 = '#D08770'
+nord13 = '#EBCB8B'
+nord14 = '#A3BE8C'
+nord15 = '#B48EAD'
+
+[directory]
+style = "nord7"
+
+[character]
+success_symbol = "[❯](nord14)"
+error_symbol = "[❯](nord11)"
+vimcmd_symbol = "[❮](nord14)"
+# success_symbol = "[>](nord14)"
+# error_symbol = "[>](nord11)"
+# vimcmd_symbol = "[<](nord14)"
+
+[username]
+style_user = "nord10"
+style_root = "nord7 bold"
+format = "[$user]($style)"
+disabled = false
+show_always = true
+
+[hostname]
+ssh_only = false
+format =  "[@$hostname ](nord10)"
+trim_at = ".deneb.group"
+disabled = false
+
+[git_branch]
+format = "[$branch]($style)"
+style = "nord3"
+
+[git_status]
+format = "[[(*$conflicted$untracked$modified$staged$renamed$deleted)](218) ($ahead_behind$stashed)]($style)"
+style = "nord9"
+conflicted = "​"
+untracked = "​"
+modified = "​"
+staged = "​"
+renamed = "​"
+deleted = "​"
+stashed = "≡"
+
+[git_state]
+format = '\([$state( $progress_current/$progress_total)]($style)\) '
+style = "nord4"
+
+[cmd_duration]
+format = "[$duration]($style) "
+style = "nord13"
+
+[python]
+format = "[$virtualenv]($style) "
+style = "nord4"

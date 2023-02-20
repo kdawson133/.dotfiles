@@ -1,0 +1,13 @@
+.DS_Store
+.zsh_history
+.zcompdump
+completions/
+fish/plugins/
+themes/
+plugin/
+.zsh_sessions/
+.zcompcache/
+.zhistory
+vifminfo.json
+vifminfo
+tmux/.config/tmux/plugins/
