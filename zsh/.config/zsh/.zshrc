@@ -25,9 +25,9 @@ pfetch
 # 4 => steady underscore
 # 5 => blinking bar
 # 6 => steady bar
-echo -ne '\e[3 q'
+echo -ne '\e[0 q'
 preexec() {
-  echo -ne '\e[3 q';
+  echo -ne '\e[0 q';
 }
 # Set Options
 setopt histignorealldups sharehistory autocd
