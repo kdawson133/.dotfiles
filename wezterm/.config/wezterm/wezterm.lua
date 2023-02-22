@@ -21,7 +21,7 @@ local config = {
 	scrollback_lines = 10000,
 }
 if string.match(wezterm.target_triple, "darwin") then
-	config.font_size = 20.0
+	config.font_size = 22.0
 end
 if string.match(wezterm.target_triple, "windows") then
 	config.font_size = 15.0
