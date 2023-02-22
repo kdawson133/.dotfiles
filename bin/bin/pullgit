@@ -15,12 +15,8 @@ CON=$HOME/.config
 
 repos=(
     "$HOME/.dotfiles"
-    "$CON/zsh/plugins/zsh-completions"
-    "$CON/zsh/plugins/alias-tips"
-    "$CON/zsh/plugins/extract"
-    "$CON/zsh/plugins/zoxide"
-    "$CON/zsh/plugins/zsh-autosuggestions"
-    "$CON/zsh/plugins/zsh-syntax-highlighting"
+    "$CON/rbenv"
+    "$CON/rbenv/plugins/ruby-build"
 )
 
 echo ""
