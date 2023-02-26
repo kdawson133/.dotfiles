@@ -11,3 +11,5 @@ plugin/
 vifminfo.json
 vifminfo
 tmux/.config/tmux/plugins/
+karabiner/.config/karabiner/automatic_backups/
+
