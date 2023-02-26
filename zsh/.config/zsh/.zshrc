@@ -32,8 +32,14 @@ preexec() {
 # Set Options
 setopt histignorealldups sharehistory autocd
 
+# keybindings
 # Use emacs keybindings even if our EDITOR is set to vi
 bindkey -e
+bindkey "\033[H" beginning-of-line
+bindkey "\033[F" end-of-line
+bindkey "^[[3~" delete-char
+bindkey "^[[5~" backward-word
+bindkey "^[[6~" forward-word
 
 # Use modern completion system
 autoload -Uz compinit
