@@ -3,7 +3,7 @@ local wezterm = require("wezterm")
 local config = {
 	status_update_interval = 800,
 	-- font
-	font = wezterm.font("Monofur Nerd Font Mono", { weight = "Regular", italic = false }),
+	font = wezterm.font("Monofur Nerd Font Mono", { weight = "Bold", italic = false }),
 	warn_about_missing_glyphs = false,
 	-- colors
 	color_scheme = "nord",
