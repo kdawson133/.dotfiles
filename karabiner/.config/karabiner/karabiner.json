@@ -92,7 +92,7 @@
                 },
                 "to": [
                   {
-                    "shell_command": "open '/Applications/Google Chrome.app'"
+                    "shell_command": "open '/Applications/Firefox.app'"
                   }
                 ],
                 "type": "basic"
