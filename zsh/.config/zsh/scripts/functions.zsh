@@ -24,5 +24,18 @@ updot () {
 	DIRECTORY=$HOME/.dotfiles
 	cd $DIRECTORY
 	git pull
-	cd $CURRENT_DIRIECTORY
-}	
+	cd $CURRENT_DIRECTORY
+}
+cdd () {
+    CURRENT_DIRECTORY=$PWD
+    DIRECTORY=$CURRENT_DIRECTORY/$1
+    if [[ ! -d $DIRECTORY ]]; then
+        echo 'Error:' $1 'does not exist'
+    fi
+    if [[ -d $DIRECTORY ]]; then
+        cd $DIRECTORY
+        if [[ -d .git ]]; then
+            git pull 
+        fi
+    fi
+}
