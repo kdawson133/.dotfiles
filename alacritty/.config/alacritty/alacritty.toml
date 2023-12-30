@@ -70,7 +70,7 @@ TERM = "alacritty"
 
 [font]
 AppleFontSmoothing = true
-size = 22
+size = 18
 
 [font.bold]
 family = "Monofur Nerd Font Mono"
