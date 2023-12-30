@@ -42,9 +42,9 @@ background = "#2e3440"
 dim_foreground = "#a5abb6"
 foreground = "#d8dee9"
 
-[colors.search.footer.bar]
-background = "#434c5e"
-foreground = "#d8dee9"
+# [colors.search.footer.bar]
+# background = "#434c5e"
+# vforeground = "#d8dee9"
 
 [colors.search.matches]
 background = "#88c0d0"
@@ -69,7 +69,6 @@ persistent_logging = false
 TERM = "alacritty"
 
 [font]
-AppleFontSmoothing = true
 size = 18
 
 [font.bold]
