@@ -3,7 +3,7 @@ export RESTIC_PASSWORD=
 export TERM=linux
 clear
 echo '*** Pruning Repo ***'
-restic -r /restic/repo prune
+restic -r /ceres/backup prune
 echo
 echo '++++++++++++++++++++'
 echo '+ Pruning Complete +'
