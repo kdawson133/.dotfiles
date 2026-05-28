@@ -1,4 +1,4 @@
-# SETUP
+# DOTFILES
 My Tokyonight `UNIX` dotfiles.
 
 ## Introduction
