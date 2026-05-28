@@ -33,7 +33,7 @@ Colour Scheme --> Tokyonight (a great dark theme with night highlights)
 - Starship Prompt
 - Bat
 - Neovim
-- VSCodium
+- Helix
 - Zed
 - Brave Browser
 - Forklift
