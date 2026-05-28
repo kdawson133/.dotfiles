@@ -1,5 +1,5 @@
 # DOTFILES
-My Tokyonight `UNIX` dotfiles.
+My Tokyonight `UNIX` dotfiles managed with GNU Stow.
 
 ## Introduction
 
