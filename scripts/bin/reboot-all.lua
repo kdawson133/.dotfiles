@@ -1,0 +1,12 @@
+#! /usr/bin/env lua
+print('\nREBOOTING ==> Vesta')
+os.execute("ssh -t vesta 'sudo reboot'")
+print('\nREBOOTING ==> Europa')
+os.execute("ssh -t europa 'sudo reboot'")
+print('\nREBOOTING ==> Titan')
+os.execute("ssh -t titan 'sudo reboot'")
+print('\nREBOOTING ==> Ceres')
+os.execute("ssh -t ceres 'sudo reboot'")
+print('\nREBOOTING ==> Pallas')
+os.execute("ssh -t pallas 'sudo reboot'")
+print('\n Please Wait ==> All Nodes Are Now Rebooting')

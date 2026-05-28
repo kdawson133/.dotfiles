@@ -1,0 +1,11 @@
+#! /usr/bin/env lua
+-- print("\nUpdating dotfiles on eris...\n")
+-- os.execute("ssh -t eris 'cd ~/.dotfiles && git pull'")
+print("\nUpdating dotfiles on ceres...\n")
+os.execute("ssh -t ceres 'cd ~/.settings && git pull'")
+print("\nUpdating dotfiles on pallas...\n")
+os.execute("ssh -t pallas 'cd ~/.settings && git pull'")
+print("\nUpdating dotfiles on titan...\n")
+os.execute("ssh -t titan 'cd ~/.settings && git pull'")
+-- print("\nUpdating dotfiles on europa...\n")
+-- os.execute("ssh -t europa 'cd ~/.dotfiles && git pull'")
