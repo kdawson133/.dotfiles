@@ -13,8 +13,8 @@ Terminal(Multiplexer) --> [Wezterm](https://wezterm.org/index.html)
 
 Editor --> [Neovim](https://neovim.io/) (several plugins included)
 
-Font --> Queensland Mono (based on Illinois-Mono and supports ligatures and the symbols nerd font mono used as fallback)
-Nerd Font --> Queensland Mono Nerd Font
+Font --> Hasklig supports ligatures with the symbols nerd font mono used as a fallback
+Nerd Font --> Hasklug Nerd Font Mono
 
 Colour Scheme --> Tokyonight (a great dark theme with night highlights)
 
