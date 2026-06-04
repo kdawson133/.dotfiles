@@ -60,6 +60,6 @@ git clone git@gitlab.kirk.blue:kdawson133/.dotfiles
 9. Fd
 10. Stow
 11. Ripgrep
-12. Queensland Mono Font
+12. Hasklig
 13. Symbols Nerd Font Mono
-14. Queensland Mono Nerd Font
+14. Hasklug Nerd Font Mono
