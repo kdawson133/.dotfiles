@@ -77,7 +77,7 @@ fi
 # NOTE: Update
 OS=$(uname)
 if [[ $OS == 'Darwin' ]]; then
-  alias update="brew update && brew upgrade --greedy"
+  alias update="brew update && brew upgrade --no-ask --greedy"
 elif [[ $OS == 'Linux' ]]; then
   DISTRO=$(lsb_release -is)
   if [[ $DISTRO == 'Ubuntu' ]]; then
