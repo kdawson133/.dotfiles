@@ -89,5 +89,8 @@ elif [[ $OS == 'Linux' ]]; then
   elif [[ $DISTRO == 'Arch' ]]; then
     alias update="sudo pacman -Syu --noconfirm"
     alias autoremove="sudo pacman -R $(pacman -Qdtq)"
+  elif [[ $DISTRO == 'cachyos' ]]; then
+    alias update="sudo pacman -Syu --noconfirm"
+    alias autoremove="sudo pacman -Syu --noconfirm"
   fi
 fi
