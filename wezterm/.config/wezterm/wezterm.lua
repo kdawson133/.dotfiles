@@ -13,7 +13,7 @@ config.inactive_pane_hsb = {
 -- config.color_scheme = "Catppuccin Mocha (Gogh)"
 config.color_scheme = "Tokyo Night (Gogh)"
 config.font = wezterm.font_with_fallback({
-	"Hasklig", -- != -->
+	"Hasklig",
 	"Symbols Nerd Font Mono",
   "Symbols Nerd Font",
 })
