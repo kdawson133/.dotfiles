@@ -9,7 +9,7 @@ prefer-no-csd
 // https://niri-wm.github.io/niri/Configuration:-Input
 input {
     keyboard {
-        repeat-delay 200
+        repeat-delay 300
         repeat-rate 35
         xkb {
             // You can set rules, model, layout, variant and options.
