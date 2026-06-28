@@ -9,7 +9,7 @@ prefer-no-csd
 // https://niri-wm.github.io/niri/Configuration:-Input
 input {
     keyboard {
-        repeat-delay 300
+        repeat-delay 500
         repeat-rate 35
         xkb {
             // You can set rules, model, layout, variant and options.
@@ -369,7 +369,7 @@ binds {
     Mod+Shift+Slash { show-hotkey-overlay; }
 
     // Suggested binds for running programs: terminal, app launcher, screen locker.
-    Mod+T hotkey-overlay-title="Open a Terminal: wezterm" { spawn "wezterm"; }
+    Mod+T hotkey-overlay-title="Open a Terminal: Alacritty" { spawn "alacritty"; }
     Mod+D hotkey-overlay-title="Run an Application: fuzzel" { spawn "fuzzel"; }
     Super+Alt+L hotkey-overlay-title="Lock the Screen: swaylock" { spawn "swaylock"; }
     Mod+B hotkey-overlay-title="Open a Browser: brave" { spawn "brave"; }
