@@ -324,7 +324,11 @@ window-rule {
     draw-border-with-background false
     default-column-width {}
 }
-
+window-rule {
+    match app-id="Alacritty"
+    draw-border-with-background false
+    default-column-width {}
+}
 // Open the Firefox picture-in-picture player as floating by default.
 window-rule {
     // This app-id regular expression will work for both:
