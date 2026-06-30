@@ -644,7 +644,7 @@
     },
     "wallpaper": {
         "automationEnabled": false,
-        "directory": "/home/ktdawson/Pictures/Wallpapers",
+        "directory": "/home/ktdawson/Pictures/backgrounds",
         "enableMultiMonitorDirectories": false,
         "enabled": true,
         "favorites": [
