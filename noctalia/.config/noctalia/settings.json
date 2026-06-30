@@ -424,7 +424,7 @@
         "showScreenCorners": false,
         "showSessionButtonsOnLockScreen": true,
         "smoothScrollEnabled": true,
-        "telemetryEnabled": true
+        "telemetryEnabled": false
     },
     "hooks": {
         "colorGeneration": "",
@@ -644,7 +644,7 @@
     },
     "wallpaper": {
         "automationEnabled": false,
-        "directory": "/home/ktdawson/Pictures/backgrounds",
+        "directory": "/home/ktdawson/Pictures/Wallpapers",
         "enableMultiMonitorDirectories": false,
         "enabled": true,
         "favorites": [
