@@ -342,6 +342,13 @@ window-rule {
       proportion 0.5
     }
 }
+window-rule {
+    match app-id="Kitty"
+    draw-border-with-background false
+    default-column-width {
+        proportion 0.5
+    }
+}
 // Open the Firefox picture-in-picture player as floating by default.
 window-rule {
     // This app-id regular expression will work for both:
