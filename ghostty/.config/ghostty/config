@@ -1,0 +1,18 @@
+# Font configuration
+font-family = "Hasklug Nerd Font Mono"
+font-size = 18
+
+# Window settings
+window-padding-x = 14
+window-padding-y = 14
+window-decoration = false
+background-opacity = 0.85
+
+# Terminal settings
+term = xterm-256color
+
+# Keybindings
+keybind = f11=toggle_fullscreen
+
+# Themes
+theme = "TokyoNight"
