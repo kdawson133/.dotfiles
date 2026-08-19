@@ -5,3 +5,7 @@
 	defaultBranch = prime
 [pull]
 	rebase = false
+[push]
+	recurseSubmodules = on-demand
+[submodule]
+	recurse = true
