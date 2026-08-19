@@ -7,10 +7,10 @@
 # alias l.='ls -a --color=auto'
 
 # Lising using EZA
-alias ls='eza --icons'
-alias ll='eza -la --icons'
-alias ld='eza -D --icons'
-alias l.='eza -a --icons' 
+alias ls='eza --group-directories-first --icons=auto --color=auto'
+alias ll='eza -la --icons=auto'
+alias ld='eza -D --icons=auro'
+alias l.='eza -a --icons=auto' 
 
 # Tree
 alias tree='tree -a'
