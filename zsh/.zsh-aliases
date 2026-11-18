@@ -12,6 +12,9 @@ alias ll='eza -la --icons=auto'
 alias ld='eza -D --icons=auro'
 alias l.='eza -a --icons=auto' 
 
+# Batcat
+alias bat='batcat'
+
 # Tree
 alias tree='tree -a'
 
